@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, intial-scale=1" />
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <link rel="stylesheet" href="./font.css" />
+    <!--<script src="./jquery-3.2.1.min.js"></script>-->
+    <script src="../main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item"></iframe>
+      </div>
+      <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Item</th>
+        <th>Price</th>
+        <th>Quantitiy</th>
+        <th>+1</th>
+        <th>-1</th>
+      </tr>
+    </thead>
+    <tbody id="itemlist">
+
+    </tbody>
+  </table>
+  <div class="row">
+    <div class="col-md-6">
+      <button class="btn btn-primary btn-block" onclick="expense()">Submit</button>
+    </div>
+    <div class="col-md-6">
+      <button class="btn btn-danger btn-block" onclick="purchase()">Cancel</button>
+    </div>
+  </div>
+    </div>
+  </body>
+</html>

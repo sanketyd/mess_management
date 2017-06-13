@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, intial-scale=1" />
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+    <link rel="stylesheet" href="./font.css" />
+    <script src="./jquery-3.2.1.min.js"></script>
+    <script src="../roll.js"></script>
+    <!--<script src="./Templates/bootstrap.min.js"></script>-->
+  </head>
+  <body>
+    <div id="container">
+      <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Item</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody id="itemlist">
+
+    </tbody>
+  </table>
+      <form>
+      <div class="form-group">
+        <label for="pwd">Roll no:</label>
+        <input type="text" class="form-control" id="roll" />
+      </div>
+      <button class="btn btn-primary btn-block" onclick="submitroll()">Submit</button>
+      </form>
+        <button class="btn btn-danger btn-block" onclick="editItems()">Edit Items</button>
+    </div>
+  </body>
+</html>
